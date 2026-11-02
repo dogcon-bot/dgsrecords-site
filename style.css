@@ -113,3 +113,40 @@ footer{border-top:1px solid var(--line);padding:1.6rem 1.25rem 2.4rem;color:var(
   .hero-inner{max-width:100%;padding-top:4.5rem}
   .hero h1{font-size:clamp(1.85rem,9vw,2.6rem)}
 }
+
+
+
+
+/* v6 — 6th District + Mason House */
+:root{--max:1120px}
+.hero h1{font-size:clamp(2.4rem,5.5vw,3.8rem);letter-spacing:-.02em;line-height:1.05}
+.hero .lede{font-size:clamp(1.05rem,2vw,1.25rem);max-width:40rem}
+.about-bar{width:min(var(--max),100%);margin:0 auto;padding:1.4rem 1.25rem 1.2rem;color:var(--muted);font-size:1rem;border-bottom:1px solid var(--line)}
+.about-bar strong{color:var(--ink);font-size:1.05rem}
+.presence{font-size:clamp(1.6rem,3vw,2.2rem);letter-spacing:-.01em;margin:0 0 .4rem}
+.sub-big{font-size:1.05rem;color:var(--muted);max-width:42rem;margin:0 0 1.5rem}
+.cat-badge,code{color:var(--red);font-weight:700;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:.85em}
+.catalog-wall{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1rem}
+.release-text{background:var(--card,#121016);border:1px solid var(--line);border-radius:14px;padding:1.1rem 1rem;min-height:140px;display:flex;align-items:flex-end}
+.release .date,.up-card .date{display:block;color:var(--muted);font-size:.85rem;margin-top:.25rem}
+.up-strip{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.9rem}
+.up-card{background:linear-gradient(180deg,rgba(220,40,40,.12),transparent),var(--card,#121016);border:1px solid var(--line);border-radius:14px;padding:1.15rem 1rem}
+.up-card strong{display:block;margin:.35rem 0 .2rem;font-size:1.05rem}
+.roster-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}
+.roster-mini h3{margin:.1rem 0 .35rem;font-size:1.05rem}
+.roster-mini .track{color:var(--muted);font-size:.9rem;margin:0 0 .7rem}
+.proof{display:grid;gap:1rem}
+@media(min-width:800px){.proof{grid-template-columns:1fr 1fr}}
+.proof p{margin:0 0 .6rem;color:var(--muted)}
+.stat-row{display:flex;flex-wrap:wrap;gap:.75rem 1.25rem;margin:1rem 0 0;color:var(--muted);font-size:.95rem}
+.stat-row b{color:var(--ink)}
+.merch-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1rem}
+a.merch-card{text-decoration:none;color:inherit;transition:border-color .15s}
+a.merch-card:hover{border-color:var(--red)}
+.mhr-banner{display:grid;gap:1rem;align-items:center}
+@media(min-width:800px){.mhr-banner{grid-template-columns:1.2fr 1fr}}
+.hero-studio .hero-still{object-fit:cover}
+.top nav a.active{color:var(--ink)}
+.cat-table{width:100%;border-collapse:collapse;font-size:.92rem}
+.cat-table th,.cat-table td{text-align:left;padding:.55rem .6rem;border-bottom:1px solid var(--line);vertical-align:top}
+.cat-table th{color:var(--muted);font-weight:600;font-size:.8rem;letter-spacing:.04em;text-transform:uppercase}
